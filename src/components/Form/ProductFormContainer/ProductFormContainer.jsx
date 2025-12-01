@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { uploadToImgbb } from "../../../services/uploadImage";
-import "./ProductFormContainer.css"; // Asegurate que este CSS existe
+import "./ProductFormContainer.css";
 
 const ProductFormContainer = () => {
     const [name, setName] = useState("");

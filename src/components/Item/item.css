@@ -1,4 +1,4 @@
-/* === TARJETA === */
+
 .product-item {
     border: 1px solid #ddd;
     border-radius: 16px;
@@ -43,7 +43,7 @@
     scroll-snap-align: start;
 }
 
-/* === TÍTULO / PRECIO === */
+
 .product-info {
     margin-top: 12px;
     text-align: center;
@@ -63,7 +63,7 @@
     margin: 8px 0 12px;
 }
 
-/* === DETALLES / BOTONES === */
+
 .product-details {
     margin-top: 10px;
     font-size: .95rem;

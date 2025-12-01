@@ -6,14 +6,14 @@ import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetail
 import { CartProvider } from "./context/CartContext/CartProvider";
 import { Cart } from "./components/Cart/Cart";
 
-import { AuthProvider } from "./context/AuthContext";   // 🔥 IMPORTANTE
+import { AuthProvider } from "./context/AuthContext"; 
 import Login from "./pages/Login.jsx";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import ProductFormContainer from "./components/Form/ProductFormContainer/ProductFormContainer.jsx";
 
 function App() {
   return (
-    <AuthProvider>         {/* 🔥 ENVUELVO TODA LA APP EN AuthProvider */}
+    <AuthProvider>       
       <BrowserRouter>
         <CartProvider>
 
