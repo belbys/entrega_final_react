@@ -1,0 +1,93 @@
+/* === TARJETA === */
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 16px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    margin: 20px auto;
+    width: 100%;
+    max-width: 350px;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.product-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, .12);
+}
+
+/* === GALERÍA: 1 imagen por vez === */
+.product-gallery.one-by-one {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 0;
+    border-radius: 12px;
+}
+
+.product-gallery.one-by-one::-webkit-scrollbar {
+    height: 6px;
+}
+
+.product-gallery.one-by-one::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 8px;
+}
+
+.product-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 12px;
+    scroll-snap-align: start;
+}
+
+/* === TÍTULO / PRECIO === */
+.product-info {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.product-title {
+    color: #222;
+    font-size: 1.4rem;
+    margin: 0 0 6px;
+    font-weight: 700;
+}
+
+.product-price.big {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #e85d75;
+    margin: 8px 0 12px;
+}
+
+/* === DETALLES / BOTONES === */
+.product-details {
+    margin-top: 10px;
+    font-size: .95rem;
+    color: #333;
+    text-align: left;
+}
+
+.product-actions {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: #e85d75;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background .25s;
+}
+
+.btn:hover {
+    background: #d14e66;
+}

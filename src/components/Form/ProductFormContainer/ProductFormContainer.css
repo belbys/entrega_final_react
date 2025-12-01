@@ -1,0 +1,60 @@
+.admin-wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #2a2a2a;
+    border-radius: 12px;
+    box-shadow: 0px 0px 20px rgba(255, 200, 255, 0.1);
+    text-align: left;
+}
+
+.admin-title {
+    color: #ff8ac5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-form label {
+    color: #f2f2f2;
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.product-form input,
+.product-form textarea {
+    width: 100%;
+    padding: 12px;
+    background: #1f1f1f;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.product-form textarea {
+    min-height: 90px;
+}
+
+.btn {
+    background: #ff8ac5;
+    border: none;
+    padding: 12px 20px;
+    color: #1f1f1f;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #ff6ab0;
+}
+
+.success-message {
+    color: #ff8ac5;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1rem;
+}

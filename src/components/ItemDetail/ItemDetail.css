@@ -1,0 +1,86 @@
+.item-detail {
+    display: grid;
+    grid-template-columns: minmax(260px, 560px) 1fr;
+    gap: 24px;
+    max-width: 1100px;
+    margin: 24px auto;
+    background: #fff;
+    padding: 22px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
+}
+
+.detail-gallery.one-by-one {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 0;
+    border-radius: 12px;
+}
+
+.detail-gallery.one-by-one::-webkit-scrollbar {
+    height: 6px;
+}
+
+.detail-gallery.one-by-one::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 8px;
+}
+
+.detail-slide {
+    width: 100%;
+    height: auto;
+    max-height: 70vh;
+    object-fit: contain;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 12px;
+    background: #fff;
+}
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.detail-title {
+    color: #222;
+    font-size: 1.7rem;
+    margin: 0 0 6px;
+    font-weight: 800;
+}
+
+.detail-price {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #e85d75;
+    margin: 4px 0 12px;
+}
+
+.btn-add {
+    margin-top: 12px;
+    background-color: #e85d75;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background .25s ease;
+}
+
+.btn-add:hover {
+    background-color: #d14e66;
+}
+
+@media (max-width: 820px) {
+    .item-detail {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-slide {
+        height: 300px;
+    }
+}

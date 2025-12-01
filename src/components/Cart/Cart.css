@@ -1,0 +1,125 @@
+.cart-wrapper {
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+}
+
+.cart-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 0 auto;
+    max-width: 420px;
+    color: #222;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cart-empty {
+    margin-top: 12px;
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    /* asegurá contraste */
+    opacity: 1;
+    /* por si estaba bajita */
+}
+
+.cart-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cart-item {
+    margin-bottom: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+}
+
+.cart-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.cart-quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 4px 10px;
+}
+
+
+
+.qty-btn {
+    min-width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: none;
+    background: #e85d75;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.qty-btn:hover {
+    background: #d14e66;
+}
+
+.qty {
+    min-width: 22px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.subtotal {
+    margin-left: 10px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #0e0303;
+    flex-grow: 1;
+}
+
+.link-remove {
+    background: transparent;
+    border: none;
+    color: #e85d75;
+    cursor: pointer;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.link-remove:hover {
+    text-decoration: underline;
+}
+
+.cart-total {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #e85d75;
+}
+
+.btn-clear {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #e85d75;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-clear:hover {
+    background-color: #d14e66;
+}

@@ -1,0 +1,185 @@
+[
+  {
+    "id": "p-01",
+    "name": "Guerreras del Kpop",
+    "price": 2500,
+    "category": "stickers",
+    "description": "Pack 5 Stickers de Kpop Demon Hunter ",
+    "material": "Vinilo Brillante resistente al agua",
+    "size": "6x6 cm aprox.",
+    "uso": "Ideal para termos, cuadernos, notebooks, botellas reutilizables y tuppers",
+    "imageUrl": [
+      "/images/p-01/p-0100.jpg",
+      "/images/p-01/p-0101.jpg",
+      "/images/p-01/p-0102.jpg",
+      "/images/p-01/p-0103.jpg",
+      "/images/p-01/p-0104.jpg",
+      "/images/p-01/p-0105.jpg",
+      "/images/p-01/p-0106.jpg",
+      "/images/p-01/p-0107.jpg"
+    ]
+  },
+  {
+    "id": "p-02",
+    "name": "Sticker Pack - Cute Pets",
+    "price": 3500,
+    "category": "stickers",
+    "description": "Pack de 5 stickers de perritos y gatitos estilo kawaii",
+    "material": "Papel autoadesivo Brillante (no resistente al agua)",
+    "size": "10x6 cm aprox.",
+    "uso": "Ideal para cuadernos, carpetas, sobres, planificadores y superficies secas",
+    "imageUrl": [
+      "/images/p-02/p-0200.jpg",
+      "/images/p-02/p-0201.jpg",
+      "/images/p-02/p-0202.jpg",
+      "/images/p-02/p-0203.jpg",
+      "/images/p-02/p-0204.jpg",
+      "/images/p-02/p-0205.jpg",
+      "/images/p-02/p-0206.jpg",
+      "/images/p-02/p-0207.jpg"
+    ]
+  },
+  {
+    "id": "p-03",
+    "name": "Frases Motivadoras",
+    "price": 600,
+    "category": "stickers",
+    "description": "frases inspiradoras.",
+    "material": "Papel autoadesivo Brillante (no resistente al agua)",
+    "size": "6x6 cm aprox.",
+    "uso": "Ideal para cuadernos, carpetas, sobres, planificadores y superficies secas",
+    "imageUrl": [
+      "/images/p-03/p-0300.jpg",
+      "/images/p-03/p-0301.jpg",
+      "/images/p-03/p-0302.jpg",
+      "/images/p-03/p-0303.jpg",
+      "/images/p-03/p-0304.jpg",
+      "/images/p-03/p-0305.jpg",
+      "/images/p-03/p-0306.jpg"
+    ]
+  },
+  {
+    "id": "p-04",
+    "name": "Etiquetas Escolares",
+    "price": 5000,
+    "category": "stickers",
+    "description": "Pack de 10 etiquetas escolares.",
+    "material": "Papel autoadesivo Brillante (no resistente al agua)",
+    "size": "10x6 cm aprox.",
+    "uso": "Ideal para cuadernos, carpetas,",
+    "imageUrl": [
+      "/images/p-04/p-0400.jpg",
+      "/images/p-04/p-0401.jpg",
+      "/images/p-04/p-0402.jpg",
+      "/images/p-04/p-0403.jpg",
+      "/images/p-04/p-0404.jpg",
+      "/images/p-04/p-0405.jpg",
+      "/images/p-04/p-0406.jpg"
+    ]
+  },
+  {
+    "id": "p-05",
+    "name": "Planner Mensual A3",
+    "price": 9800,
+    "category": "papeleria",
+    "description": "Planner mensual tamaño A3 con espacio para notas, plastificado e imantado (incluye marcador).",
+    "material": "Papel fotografico brillante",
+    "uso": "Ideal para pegarlo en la heladera",
+    "imageUrl": [
+      "/images/p-05/p-0500.jpg",
+      "/images/p-05/p-0501.jpg",
+      "/images/p-05/p-0502.jpg",
+      "/images/p-05/p-0503.jpg",
+      "/images/p-05/p-0504.jpg",
+      "/images/p-05/p-0505.jpg"
+    ]
+  },
+  {
+    "id": "p-06",
+    "name": "Planner Semanal A4",
+    "price": 7500,
+    "category": "papeleria",
+    "description": "Planner semanal plastificado e imantado (incluye marcador).",
+    "material": "Papel fotografico brillante",
+    "uso": "Ideal para pegarlo en la heladera",
+    "imageUrl": [
+      "/images/p-06/p-0600.jpg",
+      "/images/p-06/p-0601.jpg",
+      "/images/p-06/p-0602.jpg",
+      "/images/p-06/p-0603.jpg",
+      "/images/p-06/p-0604.jpg"
+    ]
+  },
+  {
+    "id": "p-07",
+    "name": "Cuaderno A5 Puntos",
+    "price": 10500,
+    "category": "papeleria",
+    "description": "Cuaderno tapa dura, de 120 hojas puntilladas",
+    "material": "Papel obra de 80gr, y encuadernado con anillo metálico",
+    "uso": "ideal para bullet journal o lettering.",
+    "imageUrl": [
+      "/images/p-07/p-0700.jpg",
+      "/images/p-07/p-0701.jpg",
+      "/images/p-07/p-0702.jpg",
+      "/images/p-07/p-0703.jpg",
+      "/images/p-07/p-0704.jpg",
+      "/images/p-07/p-0705.jpg",
+      "/images/p-07/p-0706.jpg",
+      "/images/p-07/p-0707.jpg"
+    ]
+  },
+  {
+    "id": "p-08",
+    "name": "Cuaderno Inteligente A4 Rayado",
+    "price": 21500,
+    "category": "papeleria",
+    "description": "Cuaderno rayado de tapas blandas, plastificadas y resistentes, podés sacar y poner hojas fácilmente",
+    "material": " 80 hojas de papel obra de 90gr",
+    "uso": "ideal para escuela, universidad o trabajo diario.",
+    "imageUrl": [
+      "/images/p-08/p-0800.jpg",
+      "/images/p-08/p-0801.jpg",
+      "/images/p-08/p-0802.jpg",
+      "/images/p-08/p-0803.jpg",
+      "/images/p-08/p-0804.jpg",
+      "/images/p-08/p-0805.jpg"
+    ]
+  },
+  {
+    "id": "p-09",
+    "name": "Bloc de Notas Sanrio",
+    "price": 4200,
+    "category": "papeleria",
+    "description": "Bloc de notas adhesivas de Kitty y sus amigos, 80 hojas",
+    "material":"Papel obra 70gr",
+    "size":"9x9 cm",
+    "imageUrl":[
+      "/images/p-09/p-0900.jpg",
+      "/images/p-09/p-0901.jpg",
+      "/images/p-09/p-0902.jpg",
+      "/images/p-09/p-0903.jpg",
+      "/images/p-09/p-0904.jpg",
+      "/images/p-09/p-0905.jpg",
+      "/images/p-09/p-0906.jpg",
+      "/images/p-09/p-0907.jpg"
+    ]
+  },
+  {
+    "id": "p-010",
+    "name": "Set de Marcadores Pastel",
+    "price": 10500,
+    "category": "papeleria",
+    "description": "marcadores en tonos pastel.",
+    "size":"13 cm",
+    "imageUrl": [
+      "/images/p-10/p-1000.jpg",
+      "/images/p-10/p-1001.jpg",
+      "/images/p-10/p-1002.jpg",
+      "/images/p-10/p-1003.jpg",
+      "/images/p-10/p-1004.jpg",
+      "/images/p-10/p-1005.jpg",
+      "/images/p-10/p-1006.jpg"
+    ]
+  }
+]
