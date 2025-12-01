@@ -5,30 +5,50 @@ import { ItemListContainer } from "./components/ItemListContainer/ItemListContai
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 import { CartProvider } from "./context/CartContext/CartProvider";
 import { Cart } from "./components/Cart/Cart";
+
+import { AuthProvider } from "./context/AuthContext";   // 🔥 IMPORTANTE
 import Login from "./pages/Login.jsx";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import ProductFormContainer from "./components/Form/ProductFormContainer/ProductFormContainer.jsx";
 
-
-
-
 function App() {
   return (
-    <>
+    <AuthProvider>         {/* 🔥 ENVUELVO TODA LA APP EN AuthProvider */}
       <BrowserRouter>
         <CartProvider>
+
           <Nav />
+
           <Routes>
+            {/* Home */}
             <Route path="/" element={<ItemListContainer />} />
+
+            {/* Categorías */}
             <Route path="/category/:categoryId" element={<ItemListContainer />} />
-            <Route path="/detail/:id" element={<ItemDetailContainer/>} />
-            <Route path="/cart" element={<Cart />}></Route>
-            <Route path="/login" element={<Login />}></Route>
-            <Route path="/admin" element={<ProtectedRoute> <ProductFormContainer /></ProtectedRoute>}/>
+
+            {/* Detalle */}
+            <Route path="/detail/:id" element={<ItemDetailContainer />} />
+
+            {/* Carrito */}
+            <Route path="/cart" element={<Cart />} />
+
+            {/* Login */}
+            <Route path="/login" element={<Login />} />
+
+            {/* Admin protegido */}
+            <Route
+              path="/admin"
+              element={
+                <ProtectedRoute>
+                  <ProductFormContainer />
+                </ProtectedRoute>
+              }
+            />
           </Routes>
+
         </CartProvider>
       </BrowserRouter>
-    </>
+    </AuthProvider>
   );
 }
 
